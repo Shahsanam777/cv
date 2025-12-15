@@ -1,10 +1,10 @@
 title: Web CV
 description: SITE 1101 personal web CV
 author: Shahsanam
-baseurl: /site1101
-url: https://USERNAME.github.io
-github_username: USERNAME
-github_repo_url: https://github.com/USERNAME/site1101
+baseurl: /cv
+url: https://shahsanam777.github.io
+github_username: shahsanam777
+github_repo_url: https://github.com/shahsanam777/cv
 codecademy_url: https://www.codecademy.com/profiles/YOUR_PROFILE
 
 markdown: kramdown
