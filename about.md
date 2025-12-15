@@ -3,26 +3,29 @@ layout: page
 title: About
 ---
 
-## About Me
+# About Me
 
-I am a student at SITE 1101 studying Information Technology. I enjoy learning about design, technology, and various sports. Here's what I'm focused on:
+I am a student studying Information Technology. I am interested in how technology and design work together to solve real-world problems. This page provides a brief overview of my background, interests, and personal strengths.
 
-**Background & Education**
-- Graduated from School No. 17
-- Currently studying Information Technology at SITE 1101
+## Background & Education
 
-**Interests & Hobbies**
-- Design and technology innovation
-- Sports and physical activities
-- Watching movies and reading books
-- Teamwork and problem-solving
+- Graduated from School No. 17  
+- Currently studying Information Technology  
 
-**Skills & Values**
-- Strong interest in design and IT
-- Team collaboration and leadership
-- Problem-solving mindset
-- Creative thinking
+## Interests & Hobbies
 
-**Connect with Me**
+- Design and modern technologies  
+- Sports and physical activities  
+- Watching movies and reading books  
+
+## Skills & Personal Qualities
+
+- Strong interest in information technology and design  
+- Ability to work effectively in a team  
+- Problem-solving mindset  
+- Creative and analytical thinking  
+
+## Connect with Me
+
 - [GitHub](https://github.com/shahsanam777/cv)
-- [Codecademy Profile]({{ site.codecademy_url }})
+- [Codecademy Profile](https://www.codecademy.com/)
