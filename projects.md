@@ -12,7 +12,7 @@ These are course projects from my studies at SITE 1101. Each project helped me d
 {% include project-card.html
   title="How does hardware work?"
   description="For this project, my team and I constructed and tested three basic logic gates — OR, AND, and NOR — using parts from the kit box, including transistors and other electronic components. We also built additional bonus gates such as NAND and an extra NOR gate."
-  image="assets/img/project1.svg"
+  image="https://habrastorage.org/getpro/habr/upload_files/c5e/41a/11e/c5e41a11e5a7be0750f1555fb5bfc68b.png"
 %}
 
 **What I learned:**
@@ -28,7 +28,7 @@ These are course projects from my studies at SITE 1101. Each project helped me d
 {% include project-card.html
   title="Hour of Code"
   description="For this project, my team and I developed our understanding of algorithms and shared our knowledge with our community. We worked in a team of 4 students and chose a team leader before we started. As part of the Hour of Code campaign, called Hour of AI in 2025, we visited School 238 to run our coding event. We prepared beforehand on how to teach in an engaging and beneficial way. We used Microsoft MakeCode and teaching materials to guide our session, which helped students learn basic programming concepts while having fun."
-  image="assets/img/hoc.svg"
+  image="https://code.org/_next/image?url=https%3A%2F%2Fcontentful-images.code.org%2F90t6bu6vlf76%2F5J3wtbuTqiktOFNLfgMaRY%2Fbd50c92d484a61b7b5b3e40da26b0b1e%2Fhourofai_actionblock_sm.jpg%3Ffm%3Davif&w=1920&q=75"
 %}
 
 **What we accomplished:**
