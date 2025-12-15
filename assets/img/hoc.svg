@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <defs>
+    <linearGradient id="hocGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc3333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" fill="url(#hocGradient)"/>
+  <g id="code-icon">
+    <!-- Code bracket { -->
+    <path d="M 50 60 Q 40 60 40 75 Q 40 90 50 90" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <!-- Code bracket } -->
+    <path d="M 250 60 Q 260 60 260 75 Q 260 90 250 90" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- Code lines -->
+  <line x1="80" y1="70" x2="150" y2="70" stroke="#fff" stroke-width="2"/>
+  <line x1="80" y1="85" x2="180" y2="85" stroke="#fff" stroke-width="2"/>
+  <line x1="150" y1="100" x2="200" y2="100" stroke="#fff" stroke-width="2"/>
+  <text x="150" y="145" font-family="Arial" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">Hour of Code 2025</text>
+  <text x="150" y="170" font-family="Arial" font-size="12" fill="#ffe0e0" text-anchor="middle">Teaching & Algorithms</text>
+</svg>
