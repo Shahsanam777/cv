@@ -6,7 +6,7 @@ title: Home
 # Welcome to My Web CV
 {: .hero }
 
-![Profile]({{ '/assets/img/profile.svg' | relative_url }}){: .profile-img }
+![Profile]({{ '/assets/img/profile.jpg' | relative_url }}){: .profile-img }
 
 Hi! My name is Shahsanam, I'm 17 years old, I live in Baku, and I am a university student at ADA.
 
