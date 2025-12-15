@@ -5,8 +5,24 @@ title: About
 
 ## About Me
 
-I graduated from School No. 17 and am currently a student at SITE 1101, studying Information Technology.
+I am a student at SITE 1101 studying Information Technology. I enjoy learning about design, technology, and various sports. Here's what I'm focused on:
 
-I have a strong interest in design and sports.
+**Background & Education**
+- Graduated from School No. 17
+- Currently studying Information Technology at SITE 1101
 
-In my free time, I watch movies and read books.
+**Interests & Hobbies**
+- Design and technology innovation
+- Sports and physical activities
+- Watching movies and reading books
+- Teamwork and problem-solving
+
+**Skills & Values**
+- Strong interest in design and IT
+- Team collaboration and leadership
+- Problem-solving mindset
+- Creative thinking
+
+**Connect with Me**
+- [GitHub](https://github.com/shahsanam777/cv)
+- [Codecademy Profile]({{ site.codecademy_url }})
