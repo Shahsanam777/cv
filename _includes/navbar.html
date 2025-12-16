@@ -19,13 +19,13 @@
           </a>
         </li>
       </ul>
-      <div class="theme-toggle">
-        <input 
-          type="checkbox" 
-          id="theme-toggle-checkbox" 
-          class="theme-toggle-checkbox"
-          aria-label="Toggle dark mode"
-        >
+      <div class="theme-toggle" title="Theme">
+        <span class="theme-label">Light</span>
+        <label class="switch" aria-label="Toggle dark mode">
+          <input id="themeToggle" type="checkbox">
+          <span class="slider"></span>
+        </label>
+        <span class="theme-label">Dark</span>
       </div>
     </div>
   </div>
@@ -33,7 +33,7 @@
 
 <script>
 (function() {
-  const toggle = document.getElementById('theme-toggle-checkbox');
+  const toggle = document.getElementById('themeToggle');
   const body = document.body;
 
   // Load theme preference from localStorage
