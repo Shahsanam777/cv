@@ -90,11 +90,6 @@ p {
 
 /* =========================
    Navbar
-  transition: background 0.3s ease, border-color 0.3s ease;
-}
-
-body.dark-theme .navbar {
-  background: rgba(11, 16, 32, 0.70);
    ========================= */
 .navbar {
   position: sticky;
@@ -103,6 +98,11 @@ body.dark-theme .navbar {
   backdrop-filter: blur(10px);
   background: rgba(246, 247, 251, 0.70);
   border-bottom: 1px solid var(--border);
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+body.dark-theme .navbar {
+  background: rgba(11, 16, 32, 0.70);
 }
 
 .navbar-container {
@@ -144,10 +144,12 @@ body.dark-theme .navbar {
   text-decoration: none;
 }
 
+.nav-link.active {
+  background: rgba(37, 99, 235, 0.12);
+  border-color: rgba(37, 99, 235, 0.25);
+  text-decoration: none;
+}
 
-/* =========================
-   Theme Toggle Switch
-   ========================= */
 /* =========================
    Theme Toggle Switch
    ========================= */
@@ -216,15 +218,6 @@ body.dark-theme .navbar {
   outline-offset: 2px;
 }
 
-body.dark-theme .hero {
-  background: linear-gradient(180deg, rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.65));
-}
-.nav-link.active {
-  background: rgba(37, 99, 235, 0.12);
-  border-color: rgba(37, 99, 235, 0.25);
-  text-decoration: none;
-}
-
 /* =========================
    Hero (Home)
    ========================= */
@@ -232,10 +225,14 @@ body.dark-theme .hero {
   margin-top: 26px;
   padding: 34px 22px;
   border-radius: var(--radius);
-  background: linear-gradient(180deg, rgba(255,255,255,0.85), rgba(255,255,255,0.65));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.65));
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
   text-align: center;
+}
+
+body.dark-theme .hero {
+  background: linear-gradient(180deg, rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.65));
 }
 
 .hero p {
@@ -286,11 +283,6 @@ img {
   background: var(--primary);
   box-shadow: 0 12px 26px rgba(37, 99, 235, 0.25);
 }
-  transition: background 0.3s ease, border-color 0.3s ease;
-}
-
-body.dark-theme .footer {
-  background: rgba(11, 16, 32, 0.55);
 
 .btn:hover {
   background: var(--primary-600);
@@ -361,8 +353,13 @@ body.dark-theme .footer {
 .footer {
   margin-top: 56px;
   border-top: 1px solid var(--border);
-  background: rgba(255,255,255,0.55);
+  background: rgba(255, 255, 255, 0.55);
   backdrop-filter: blur(10px);
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+body.dark-theme .footer {
+  background: rgba(11, 16, 32, 0.55);
 }
 
 .footer-container {
