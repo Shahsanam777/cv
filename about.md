@@ -29,3 +29,16 @@ I am a student studying Information Technology. I am interested in how technolog
 
 - [GitHub](https://github.com/shahsanam777/cv)
 - [Codecademy Profile](https://www.codecademy.com/)
+
+## Contact Information
+
+### Location
+
+Location: Baku, Azerbaijan
+
+<iframe src="https://www.google.com/maps?q=9RVX%2BRQ%20Baku&output=embed" width="100%" height="300" style="border: 1px solid rgba(15, 23, 42, 0.1); border-radius: 16px; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+### Email
+
+- Personal: [sahsenemhumbetova@gmail.com](mailto:sahsenemhumbetova@gmail.com)
+- University: [shunbatova25366@ada.edu.az](mailto:shunbatova25366@ada.edu.az)
