@@ -12,7 +12,7 @@ These are course projects from my studies at SITE 1101. Each project helped me d
 {% include project-card.html
   title="How does hardware work?"
   description="For this project, my team and I constructed and tested three basic logic gates — OR, AND, and NOR — using parts from the kit box, including transistors and other electronic components. We also built additional bonus gates such as NAND and an extra NOR gate."
-  image="https://habrastorage.org/getpro/habr/upload_files/c5e/41a/11e/c5e41a11e5a7be0750f1555fb5bfc68b.png"
+  video="https://www.youtube.com/embed/yM7Ky0OtsIE"
 %}
 
 **What I learned:**
