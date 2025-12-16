@@ -11,7 +11,7 @@ These are course projects from my studies at SITE 1101. Each project helped me d
 
 {% include project-card.html
   title="How does hardware work?"
-  description="For this project, my team and I constructed and tested three basic logic gates — OR, AND, and NOR — using parts from the kit box, including transistors and other electronic components. We also built additional bonus gates such as NAND and an extra NOR gate."
+  description="As a member of Team 49, I worked together with my teammates to build and test three basic logic gates — OR, AND, and NOR — using transistors and other components from the kit box. Through teamwork and hands-on experience, we also created additional bonus gates such as NAND and an extra NOR gate. This project helped me better understand how electronic circuits work and made the learning process more engaging and meaningful."
   video="https://www.youtube.com/embed/yM7Ky0OtsIE"
 %}
 
