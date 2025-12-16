@@ -1,22 +1,57 @@
 <nav class="navbar">
   <div class="navbar-container">
     <a href="{{ '/' | relative_url }}" class="navbar-brand">{{ site.title }}</a>
-    <ul class="navbar-menu">
-      <li>
-        <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/about.html' | relative_url }}" class="nav-link {% if page.url == '/about.html' %}active{% endif %}">
-          About
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/projects.html' | relative_url }}" class="nav-link {% if page.url == '/projects.html' %}active{% endif %}">
-          Projects
-        </a>
-      </li>
-    </ul>
+    <div style="display: flex; align-items: center; gap: 18px; flex-wrap: wrap;">
+      <ul class="navbar-menu">
+        <li>
+          <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="{{ '/about.html' | relative_url }}" class="nav-link {% if page.url == '/about.html' %}active{% endif %}">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="{{ '/projects.html' | relative_url }}" class="nav-link {% if page.url == '/projects.html' %}active{% endif %}">
+            Projects
+          </a>
+        </li>
+      </ul>
+      <div class="theme-toggle">
+        <input 
+          type="checkbox" 
+          id="theme-toggle-checkbox" 
+          class="theme-toggle-checkbox"
+          aria-label="Toggle dark mode"
+        >
+      </div>
+    </div>
   </div>
 </nav>
+
+<script>
+(function() {
+  const toggle = document.getElementById('theme-toggle-checkbox');
+  const body = document.body;
+
+  // Load theme preference from localStorage
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  if (savedTheme === 'dark') {
+    body.classList.add('dark-theme');
+    toggle.checked = true;
+  }
+
+  // Toggle theme on change
+  toggle.addEventListener('change', function() {
+    if (this.checked) {
+      body.classList.add('dark-theme');
+      localStorage.setItem('theme', 'dark');
+    } else {
+      body.classList.remove('dark-theme');
+      localStorage.setItem('theme', 'light');
+    }
+  });
+})();
+</script>
